@@ -433,3 +433,11 @@ div.invalid {
 @media screen and (max-width: 767px) {
   .footer__span {
     text-align: center; } }
+
+@media screen and (max-width: 666px) {
+  .third__rows {
+    display: none; }
+  .footer {
+    margin-top: 0; }
+  .third__text {
+    margin-bottom: 0; } }

@@ -7,7 +7,7 @@ $('.first__rotator').owlCarousel({
 });
 $('.owl-carousel').owlCarousel({
     lazyLoad: true,
-    autoWidth: true,
+    // autoWidth: true,
     responsiveClass:true,
     margin: 33,
     nav: true,
@@ -17,11 +17,11 @@ $('.owl-carousel').owlCarousel({
             nav:false
         },
         600:{
-            items:3,
+            items:2,
             nav:false
         },
-        1000:{
-            items:4,
+        1189:{
+            items:3,
             nav:true,
             loop:false
         }
